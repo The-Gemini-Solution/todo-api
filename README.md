@@ -2,7 +2,10 @@
 
 ## Overview
 This is a simple API providing todo list functionality, stored in a sqlite database. The API is secured using JWT Authentication & role-based authorization. 
-The idea behind this simple API is to demonstrate technical ability in a given UI framework.
+
+* The API is build using dotnet core 3.1
+* The API does not work correctly "out of the box"; review app configs before running
+* The repo contains a postman collection which demonstrates use of all the API endpoints
 
 ## Roles
 
@@ -26,9 +29,11 @@ There is also a Postman collection available in the root of the repository, impo
 _Please note:_ the unit tests are currently incomplete.
 
 ## Instructions
-The API is missing a working front-end. To complete the challenge, do the following:
-
 * Create a fork of this repository in your own github account
+* If you have any trouble or queries please reach out to us using any of the emails in this README
+Depending on the role being assessed instructions may vary.
+
+### Frontend role
 * Choose a ui framework, preferably React, Angular+ or Vue & create a ui application in folder named **"Todo.UI"**
 * The following functionality should be implemented:
   * State management
@@ -45,3 +50,20 @@ The API is missing a working front-end. To complete the challenge, do the follow
 * Please consider your git history as this will be reviewed
   * Commit & push code regularly
 * Once complete, please send a link to your repository to tim@geminisolution.co.za or elrika@geminisolution.co.za
+
+## QA Automation
+Looking at the User role requirements, create at least 3 BDD test scenarios.
+### API
+* Use the postman collection provided to:
+  * Register a user using your name
+### Admin
+* Can list all users
+* Can view details of a specific user
+* Users cannot be assigned the Admin role via the API
+### User
+* This is the default User created by the API
+* Can create, edit, list & remove their own todo items
+* Can mark todos they own as complete or incomplete
+* Users cannot see other users todo items
+* Once complete, please send a link to your repository to jehan@geminisolution.co.za or elrika@geminisolution.co.za
+

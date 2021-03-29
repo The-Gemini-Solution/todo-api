@@ -33,7 +33,7 @@ _Please note:_ the unit tests are currently incomplete.
 * If you have any trouble or queries please reach out to us using any of the emails in this README
 Depending on the role being assessed instructions may vary.
 
-### Frontend role
+### Frontend role assessment
 * Choose a ui framework, preferably React, Angular+ or Vue & create a ui application in folder named **"Todo.UI"**
 * The following functionality should be implemented:
   * State management
@@ -51,7 +51,7 @@ Depending on the role being assessed instructions may vary.
   * Commit & push code regularly
 * Once complete, please send a link to your repository to tim@geminisolution.co.za or elrika@geminisolution.co.za
 
-## QA Automation
+### QA Automation assessment
 Looking at the User role requirements, create at least 3 BDD test scenarios.
 ### API
 * Use the postman collection provided to:

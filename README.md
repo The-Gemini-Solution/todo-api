@@ -51,19 +51,3 @@ Depending on the role being assessed instructions may vary.
   * Commit & push code regularly
 * Once complete, please send a link to your repository to tim@geminisolution.co.za or elrika@geminisolution.co.za
 
-### QA Automation assessment
-Looking at the User role requirements, create at least 3 BDD test scenarios.
-### API
-* Use the postman collection provided to:
-  * Register a user using your name
-### Admin
-* Can list all users
-* Can view details of a specific user
-* Users cannot be assigned the Admin role via the API
-### User
-* This is the default User created by the API
-* Can create, edit, list & remove their own todo items
-* Can mark todos they own as complete or incomplete
-* Users cannot see other users todo items
-* Once complete, please send a link to your repository to jehan@geminisolution.co.za or elrika@geminisolution.co.za
-
